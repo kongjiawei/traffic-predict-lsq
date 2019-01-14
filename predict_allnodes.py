@@ -307,7 +307,8 @@ while(1):
         test_temp = np.array([test_inputdata[k, :, :]])
         predict_traffic3 = model_traffic3.predict(test_temp)
       
-    average_traffic3=averagenum(predict_traffic3) 
+    average_traffic3=averagenum(predict_traffic3)
+    
     
 
 
